@@ -61,6 +61,7 @@ $openclash-expert 解释这个覆写配置为什么没有生效，并核验相�
 ```text
 openclash-expert-skill/
 ├── SKILL.md            # 触发描述、权威来源和回答工作流
+├── LICENSE             # MIT 许可证和本仓库版权署名
 ├── agents/
 │   └── openai.yaml     # 显示名称、简述和默认提示词
 └── README.md
@@ -73,3 +74,9 @@ openclash-expert-skill/
 - [Codex skill 文档](https://learn.chatgpt.com/docs/build-skills)
 
 本仓库是独立的 skill 包，未声明与 OpenClash、Mihomo 或 OpenAI 存在官方关联。上游内容及商标的权利归各自权利人所有。
+
+## 许可证与署名
+
+本仓库原创内容采用 [MIT 许可证](LICENSE)，版权署名为 `Copyright (c) 2026 phoenixap`。使用、修改或分发这些内容时，请保留许可证及版权声明。
+
+本 skill 的设计参考了 OpenClash 项目的用户指南及其使用流程。[上游指南入口](https://github.com/vernesong/OpenClash/blob/dev/.github/skills/openclash-user-guide/SKILL.md)在 2026-10-03 核验时标注 `license: MIT`。本仓库通过链接引用该指南，不收录指南全文；上游内容的版权归其原作者所有，本仓库的署名不代表对上游内容主张版权。若后续收录或改编上游文字，应保留其适用的许可及版权声明。
