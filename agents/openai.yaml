@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClash 专家助手"
+  short_description: "依据最新版权威指南配置、诊断并解释 OpenClash 与 Mihomo"
+  default_prompt: "使用 $openclash-expert 帮我配置或排查 OpenClash 问题。"
